@@ -1,0 +1,65 @@
+
+				HeightColorMap
+				{
+					blend = 1
+        	                	order = 135
+                	        	enabled = true
+                        		LandClasses
+                        		{
+                            			Class
+                         	   		{
+                             				name = DustyBottom
+							altitudeStart = 0
+							altitudeEnd = 0.15
+							color = 0.851,0.725,0.569,1
+ 							lerpToNext = true
+						}
+                            			Class
+                         	   		{
+                             				name = DustyLow
+							altitudeStart = 0.15
+							altitudeEnd = 0.25
+							color = 0.871,0.749,0.60,1
+ 							lerpToNext = true
+						}
+                            			Class
+                         	   		{
+                             				name = DustyHigh
+							altitudeStart = 0.25
+							altitudeEnd = 0.40
+							color = 0.851,0.725,0.569,1
+ 							lerpToNext = true
+						}
+                            			Class
+                         	   		{
+                             				name = Rubble
+							altitudeStart = 0.40
+							altitudeEnd = 0.50
+							color = 0.478,0.325,0.102,1
+ 							lerpToNext = true
+						}
+                            			Class
+                         	   		{
+                             				name = RockyLow
+							altitudeStart = 0.50
+							altitudeEnd = 0.60
+							color = 0.361,0.188,0.004,1
+ 							lerpToNext = true
+						}
+                            			Class
+                         	   		{
+                             				name = RockyMiddle
+							altitudeStart = 0.60
+							altitudeEnd = 0.75
+							color = 0.333,0.204,0.067,1
+ 							lerpToNext = true
+						}
+                            			Class
+                         	   		{
+                             				name = RockyHigh
+							altitudeStart = 0.75
+							altitudeEnd = 1
+							color = 0.271,0.169,0.031,1
+ 							lerpToNext = false
+						}
+					}	
